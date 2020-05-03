@@ -7,17 +7,17 @@
   </head>
   <body>
     <dl>
-      <dt>git init</dt>
+      <dt><code>git init</code></dt>
       <dd>initializes the current folder as a git repository</dd>
       <dd>
         this command will mark the folder as "master"; that is, this is now the
         master branch
       </dd>
-      <dt>git status</dt>
+      <dt><code>git status</code></dt>
       <dd>tells you the current status of the repository</dd>
-      <dt>git add</dt>
+      <dt><code>git add</code></dt>
       <dd>all files in current directory will be added to the staging area</dd>
-      <dt>git commit</dt>
+      <dt><code>git commit</code></dt>
       <dd>
         will commit current state of folders (staged) to the git repository
       </dd>
@@ -25,15 +25,31 @@
         a snapshot off the current state of all files is added to the git
         repository
       </dd>
-      <dt>-m (flag)</dt>
+      <dt><code>-m (flag)</code></dt>
       <dd>
         add the <code>-m</code> flag to <code>git commit</code> to add a message
         with the commit
       </dd>
-      <dt>git log --oneline</dt>
+      <dt><code>git log --oneline</code></dt>
       <dd>
         shows the 8 digit hash and the commit message of all commits thus far in
         repo
+      </dd>
+      <dt><code>git checkout < hash > < file ></code></dt>
+      <dd>
+        will check out file specified from the snapshot of the has specified
+      </dd>
+      <dd>this will stage those changes/reversion</dd>
+      <dt><code>git reset HEAD < file ></code></dt>
+      <dd>this will unstage the chagnes/reversions made to the file</dd>
+      <dd>
+        if you look at your editor, you will still see the previous version of
+        the file, because this is the file we checked out, but the
+        changes/reversion is no longer staged
+      </dd>
+      <dt><code>git checkout -- < file ></code></dt>
+      <dd>
+        will restore the file to what it was at the latest snapshot (HEAD)
       </dd>
     </dl>
   </body>
