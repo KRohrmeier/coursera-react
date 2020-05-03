@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KRohrmeier/coursera-react/issues"
   },
-  "homepage": "https://github.com/KRohrmeier/coursera-react#readme"
+  "homepage": "https://github.com/KRohrmeier/coursera-react#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
