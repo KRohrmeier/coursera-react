@@ -41,7 +41,7 @@
       </dd>
       <dd>this will stage those changes/reversion</dd>
       <dt><code>git reset HEAD < file ></code></dt>
-      <dd>this will unstage the chagnes/reversions made to the file</dd>
+      <dd>unstage the changes/reversions made to the file</dd>
       <dd>
         if you look at your editor, you will still see the previous version of
         the file, because this is the file we checked out, but the
@@ -51,6 +51,13 @@
       <dd>
         will restore the file to what it was at the latest snapshot (HEAD)
       </dd>
+      <dd>
+        put another way, this will discard the changes in the working directory
+      </dd>
+      <dt><code>git reset < file ></code></dt>
+      <dd>unstage a changed file, but leave working directory alone</dd>
+      <dt><code>git reset < file ></code></dt>
+      <dd></dd>
     </dl>
   </body>
 </html>
