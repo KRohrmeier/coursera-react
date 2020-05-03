@@ -1,0 +1,19 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "test project for node and react",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KRohrmeier/coursera-react.git"
+  },
+  "author": "k.Rohrmeier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KRohrmeier/coursera-react/issues"
+  },
+  "homepage": "https://github.com/KRohrmeier/coursera-react#readme"
+}
